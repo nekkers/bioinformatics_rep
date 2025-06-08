@@ -55,7 +55,7 @@ def align_two(s1, s2):
     Align.PairwiseAlignments: Объект с результатами выравнивания
     """
     aligner = Align.PairwiseAligner()
-    aligner.mode = "local"
+    aligner.mode = 'local'
     alignments = aligner.align(s1, s2)
     return alignments
 
